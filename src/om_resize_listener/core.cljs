@@ -1,10 +1,8 @@
 (ns om-resize-listener.core
   (:import [goog events])
-  (:require-macros [cljs.core.async.macros :refer [go]])
   (:require
    [om.core :as om :include-macros true]
-   [sablono.core :as html :refer [html] :include-macros true]
-   [cljs.core.async :refer [<! put! chan]]))
+   [sablono.core :as html :refer [html] :include-macros true]))
 
 (enable-console-print!)
 
